@@ -2241,3 +2241,15 @@ select {
   }
 }
 
+
+
+/* Custom CSS */
+.text-white * {
+  color: theme('colors.white') !important;
+}
+
+.text-black * {
+  color: theme('colors.black') !important;
+}
+
+
