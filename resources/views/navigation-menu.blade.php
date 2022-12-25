@@ -16,11 +16,7 @@
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                 </div>
-
-                <!-- Dark Mode Toggle -->
-                <div class="hidden sm:flex sm:items-center sm:ml-6">
-                    <x-darkmode-button />
-                </div>
+                
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
