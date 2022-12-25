@@ -43,7 +43,7 @@
 {{--            @endif--}}
 
             <!-- Page Content -->
-            <main class="min-h-screen bg-gray-100 dark:bg-background-1000">
+            <main class="bg-gray-100 dark:bg-background-1000 dark:text-primary-200" style="min-height: 93.5vh !important;">
                 {{ $slot }}
             </main>
         </div>
