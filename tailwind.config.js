@@ -49,8 +49,8 @@ module.exports = {
                     800:'#424242',
                     900:'#212121',
                 },
-                'black-custom' : "#000000",
-                'white-custom' : "#FFFFFF",
+                black : "#000000",
+                white : "#FFFFFF",
                 'on-primary' : {
                     50: '#000000',
                     100: '#000000',
