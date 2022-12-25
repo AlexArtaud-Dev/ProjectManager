@@ -3,7 +3,7 @@
     <svg x-show="darkMode === false" class="w-6 h-6 text-gray-600 dark:text-background-1100" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
     </svg>
-    <svg x-show="darkMode === true" class="w-6 h-6 text-gray-600 dark:text-background-1100" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+    <svg x-show="darkMode === true" class="w-6 h-6 text-gray-600 dark:text-secondary-200 dark:shadow-md" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
     </svg>
 </button>
