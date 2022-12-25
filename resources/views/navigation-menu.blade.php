@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100 dark:bg-background-1000 dark:text-primary-200 dark:shadow-md">
+<nav x-data="{ open: false }" x-bind:class="{'border-b border-gray-100' : darkMode === false}" class="bg-white dark:bg-background-1000 dark:text-primary-200 dark:shadow-md">
     <!-- Primary Navigation Menu -->
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
@@ -16,7 +16,7 @@
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                 </div>
-                
+
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">

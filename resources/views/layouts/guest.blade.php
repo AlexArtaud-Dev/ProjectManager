@@ -19,8 +19,14 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     	<script src="{{ mix('js/app.js') }}" defer></script>
     </head>
-    <body>
-        <div class="font-sans text-gray-900 antialiased">
+    <body class="font-sans antialiased" x-data="{ darkMode: false }" x-init="
+    if (!('darkMode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      localStorage.setItem('darkMode', JSON.stringify(true));
+    }
+    darkMode = JSON.parse(localStorage.getItem('darkMode'));
+    $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))" x-cloak>
+        <div class="text-gray-900" x-bind:class="{'dark' : darkMode === true}">
+            <x-darkmode-button />
             {{ $slot }}
         </div>
     </body>
