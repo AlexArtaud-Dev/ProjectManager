@@ -1,6 +1,4 @@
-// button dark mode with tailwindcss that is always visible on the bottom right of the screen and that changes color when clicked
 <button x-bind:class="{'dark' : darkMode === true}" x-on:click="darkMode = !darkMode" class="fixed bottom-0 right-0 m-4 p-2 rounded-full bg-gray-100 dark:bg-background-1100 shadow-lg">
-    // if dark mode is active, show the sun icon, otherwise show the moon icon
     <svg class="w-6 h-6 text-gray-800 dark:text-gray-100" x-show="darkMode === false" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
         <path d="M12 1v2"></path>
         <path d="M12 21v2"></path>
