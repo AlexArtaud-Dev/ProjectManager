@@ -31,6 +31,7 @@
         <x-jet-banner />
 
         <div x-bind:class="{'dark' : darkMode === true}" class="min-h-screen">
+            <x-darkmode-button />
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
@@ -45,7 +46,6 @@
             <!-- Page Content -->
             <main class="bg-gray-100 dark:bg-background-1100" style="min-height: 93.5vh !important;">
                 {{ $slot }}
-                <x-darkmode-button />
             </main>
         </div>
 
