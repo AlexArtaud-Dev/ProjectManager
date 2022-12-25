@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+/* Custom CSS */
+.text-white-custom * {
+    color: theme('colors.white-custom') !important;
+}
+
+.text-black-custom * {
+    color: theme('colors.black-custom') !important;
+}
