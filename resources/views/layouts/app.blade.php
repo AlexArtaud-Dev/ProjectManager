@@ -43,7 +43,7 @@
 {{--            @endif--}}
 
             <!-- Page Content -->
-            <main class="dark:bg-background-900">
+            <main class="dark:bg-background-1000">
                 {{ $slot }}
             </main>
         </div>
