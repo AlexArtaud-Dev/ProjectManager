@@ -30,7 +30,7 @@
     $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))" x-cloak>
         <x-jet-banner />
 
-        <div x-bind:class="{'dark' : darkMode === true}" class="min-h-screen bg-gray-100">
+        <div x-bind:class="{'dark' : darkMode === true}" class="min-h-screen bg-gray-100 dark:bg-background-1100">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
@@ -43,7 +43,7 @@
 {{--            @endif--}}
 
             <!-- Page Content -->
-            <main class="dark:bg-background-1000">
+            <main>
                 {{ $slot }}
             </main>
         </div>
