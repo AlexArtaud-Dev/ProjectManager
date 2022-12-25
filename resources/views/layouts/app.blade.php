@@ -45,7 +45,6 @@
             <!-- Page Content -->
             <main class="bg-gray-100 dark:bg-background-1100" style="min-height: 93.5vh !important;">
                 {{ $slot }}
-                // dark mode button
                 <x-darkmode-button />
             </main>
         </div>
